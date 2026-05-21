@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bob-skills-installer"
+version = "1.0.0"
+description = "CLI tool to install and manage Bob AI skills"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "IBM Internal Tool"}
+authors = [
+    {name = "Wei Cao", email = "weicao@ca.ibm.com"}
+]
+keywords = ["bob", "ai", "skills", "cli", "installer"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "click>=8.0.0",
+    "requests>=2.28.0",
+    "pyyaml>=6.0",
+    "rich>=13.0.0",
+    "gitpython>=3.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.ibm.com/weicao/bob-skills-installer"
+Repository = "https://github.ibm.com/weicao/bob-skills-installer"
+
+[project.scripts]
+bob-skills = "bob_installer.cli:cli"
+
+[tool.setuptools]
+packages = ["bob_installer"]
+
+[tool.setuptools.package-data]
+bob_installer = ["templates/*.md"]
