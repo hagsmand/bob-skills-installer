@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include requirements.txt
+include install.sh
+recursive-include bob_installer/templates *.md

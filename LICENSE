@@ -1,0 +1,52 @@
+IBM Internal Tool - Bob Skills Installer
+
+Copyright (c) 2026 International Business Machines Corporation (IBM)
+Author: Wei Cao
+
+This tool is developed for internal use within IBM to facilitate the installation
+and management of AI skills for IBM Bob (enterprise AI coding assistant).
+
+INTERNAL USE ONLY - NOT FOR EXTERNAL DISTRIBUTION
+
+This installer is provided as-is for use by IBM employees and authorized personnel
+to enhance their development workflows with IBM Bob.
+
+---
+
+THIRD-PARTY SKILLS NOTICE:
+
+This installer downloads AI skills from Anthropic's public repository:
+https://github.com/anthropics/skills
+
+Downloaded skills are the intellectual property of Anthropic PBC and are subject
+to their respective licenses:
+
+1. Proprietary Skills (docx, pdf, xlsx, pptx):
+   - Copyright © Anthropic PBC
+   - Source-available under proprietary license
+   - See LICENSE.txt in each skill directory for terms
+   - Usage permitted but modification/redistribution restricted
+
+2. Open Source Skills (mcp-builder, frontend-design, etc.):
+   - Copyright © Anthropic PBC
+   - Licensed under Apache License 2.0
+   - Free to use, modify, and redistribute per Apache 2.0 terms
+
+COMPLIANCE:
+
+By using this installer within IBM, you agree to:
+1. Use skills in compliance with Anthropic's license terms
+2. Preserve all copyright notices and LICENSE.txt files
+3. Use skills only for authorized IBM business purposes
+4. Not redistribute proprietary skills outside IBM without proper authorization
+
+For questions about licensing or usage, contact:
+- IBM Legal/Compliance team for internal tool usage
+- Anthropic (https://anthropic.com) for skill licensing questions
+
+DISCLAIMER:
+
+This installer is provided "as-is" without warranty. IBM makes no claims to
+ownership of the downloaded skills. The installer author (Wei Cao) developed
+this tool to improve team productivity and facilitate skill management for
+IBM Bob users.
